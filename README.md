@@ -3,7 +3,9 @@
 A 2D side-scrolling jump game for the **STM32F429I-DISC1** Discovery Kit.
 为 **STM32F429I-DISC1** 开发板写的 2D 横版跳跃小游戏。
 
-![placeholder](docs/screenshot.jpg)
+![gameplay](docs/gameplay.gif)
+
+![screenshot](docs/screenshot.jpg)
 
 [中文](#中文) · [English](#english)
 
@@ -23,7 +25,7 @@ A 2D side-scrolling jump game for the **STM32F429I-DISC1** Discovery Kit.
 
 ### 玩法
 
-- 把板子**横过来，USB 接口朝右**，得到 320×240 横屏
+- 把板子**横过来，USB 接口朝左**（USER 按键也在左下角），得到 320×240 横屏
 - 按 **B1** 起跳
 - 支持**二段跳**：空中再按一次 B1 可以再跳一次（垂直速度会被重置，可以临空救一手）
 - 障碍的宽度和高度都随机变化。难度（速度 + 生成频率）随分数递增
@@ -108,7 +110,7 @@ Bare-metal C with ST's BSP for LCD/SDRAM bring-up, runs directly on the 2.4″ T
 
 ### Gameplay
 
-- Hold the board **with the USB connector on the right** for landscape orientation (320×240)
+- Hold the board **with the USB connector on the left** (USER button also at the lower-left) for landscape orientation (320×240)
 - Press **B1** to jump
 - **Double-jump** is enabled: tap B1 again in mid-air to jump a second time (resets vertical velocity, useful for recovery)
 - Obstacles vary in both width and height. Speed and spawn rate ramp up with your score
