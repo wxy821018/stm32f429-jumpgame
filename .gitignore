@@ -1,0 +1,10 @@
+build/
+vendor/
+.claude/
+.vscode/ipch/
+*.elf
+*.bin
+*.hex
+*.map
+*.log
+*.bak

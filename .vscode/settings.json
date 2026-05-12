@@ -1,0 +1,10 @@
+{
+    "cmake.generator": "Ninja",
+    "cmake.configureArgs": [
+        "-DCMAKE_TOOLCHAIN_FILE=${workspaceFolder}/cmake/arm-none-eabi.cmake"
+    ],
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "C_Cpp.default.compilerPath": "arm-none-eabi-gcc",
+    "C_Cpp.default.intelliSenseMode": "linux-gcc-arm",
+    "C_Cpp.default.cStandard": "c11"
+}
